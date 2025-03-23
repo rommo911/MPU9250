@@ -117,6 +117,9 @@ class MPU9250{
     void setMagCalX(float bias,float scaleFactor);
     void setMagCalY(float bias,float scaleFactor);
     void setMagCalZ(float bias,float scaleFactor);
+
+    //rami 
+    int powerDown();
   protected:
     // i2c
     uint8_t _address;
